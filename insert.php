@@ -3,7 +3,7 @@
 Plugin Name: Insert
 Plugin URI: http://github.com/ryanve/insert
 Description: Insert posts, hooks, or templates via shortcode.
-Version: 0.0.0
+Version: 0.1.0
 Author: Ryan Van Etten
 Author URI: http://ryanve.com
 License: MIT
