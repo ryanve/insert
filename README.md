@@ -3,7 +3,7 @@
 
 ## Usage
 
-The plugin works via a simple [shortcode](http://codex.wordpress.org/Shortcode_API). It can be used inside posts or anywhere else that processes shortcodes. All attributes are optional and can be used in combination to yield powerful abilities.
+Use the `[insert]` shortcode inside posts or anywhere else that processes [shortcodes](http://codex.wordpress.org/Shortcode_API).
 
 ### `[insert]` shortcode attributes
 
@@ -12,6 +12,18 @@ The plugin works via a simple [shortcode](http://codex.wordpress.org/Shortcode_A
 - <b>action</b> - action to run, runs for each post if applicable
 - <b>filter</b> - filter to run, runs for each post if applicable
 - <b>template</b> - template to load via [`locate_template()`](http://codex.wordpress.org/Function_Reference/locate_template)
+
+All attributes are optional and can be used in combination to yield powerful [abilities](#abilities).
+
+## Abilities
+
+Possibilities with `[insert]` are endless. Practical uses include:
+
+- Insert posts into posts
+- Insert hooks into posts
+- Insert posts into widgets
+- Run action hooks via widgets
+- Load templates via widgets
 
 ## Examples
 
@@ -55,6 +67,10 @@ WP template tags are available inside the action.
 ```
 add_action('dostuff', 'the_title');
 ```
+
+## Fund
+
+[Fund development @ryanve](https://www.gittip.com/ryanve/) <b>=)</b>
 
 ## License
 
